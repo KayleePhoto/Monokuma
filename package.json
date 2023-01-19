@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "ascii-table": "^0.0.9",
+    "chart.js": "3.5.1",
+    "chartjs-node-canvas": "4.1.5",
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3",
+    "mysql2": "^3.0.1",
+    "sequelize": "^6.28.0",
+    "uuid": "^9.0.0"
+  },
+  "name": "monokuma",
+  "version": "1.0.0",
+  "main": "build/src/index.js",
+  "author": "KayleePhoto",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js",
+    "deploy:guild": "node src/deploy-guild.js",
+    "deploy:guild:create": "node src/deploy-guild.js create",
+    "deploy:guild:delete": "node src/deploy-guild.js delete",
+    "deploy:global": "node src/deploy-guild.js",
+    "deploy:global:create": "node src/deploy-global.js create",
+    "deploy:global:delete": "node src/deploy-global.js delete"
+  }
+}

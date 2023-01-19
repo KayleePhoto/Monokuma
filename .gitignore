@@ -125,3 +125,10 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+secrets/Database/create/config.js
+secrets/connect.js
+secrets/Database/create/user.js
+secrets/Database/Schema/config.js
+secrets/Database/Schema/user.js
+src/deploy-global.js
+src/deploy-guild.js
